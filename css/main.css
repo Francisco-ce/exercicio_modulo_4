@@ -1,0 +1,138 @@
+h1 {
+    color:#0c2461;
+}
+
+#esportes h2 {
+    color: #f6b93b;
+}
+
+#economia h2 {
+    color: #079992;
+}
+
+#tecnologia h2 {
+    color: #99074b;
+}
+
+#entretenimento h2 {
+    color: #996307;
+}
+
+ul {
+    list-style: none;
+}
+
+.data {
+    color: #d2dae2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: #00cec9;
+    padding: 16px 0;
+    color: white;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color:white;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .artigos article {
+    margin-bottom:16px;
+}
+
+.artigos article h3 {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.artigos article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block; 
+    text-decoration: none;
+    /* padrão da tag "a" é vir com display inline */
+}
+
+.artigos article h3 {
+    font-size: 24px;
+}
+
+
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+#esportes {
+    background-color: rgba(0, 255,0, 0.1);
+}
+
+#esportes .artigos article a {
+    background-color: rgba(0, 255,0, 0.8);
+}
+
+#economia {
+    background-color: rgba(179, 255, 0, 0.1);
+}
+
+#economia .artigos article a {
+    background-color: rgba(229, 255, 0, 0.8);
+}
+
+#tecnologia {
+    background-color: rgba(240, 134, 175, 0.659);
+}
+
+#tecnologia .artigos article a {
+    background-color: rgba(255, 0, 132, 0.845)8);
+}
+
+#entretenimento {
+    background-color: rgba(232, 177, 154, 0.1);
+}
+
+#entretenimento .artigos article a {
+    background-color: rgba(232, 142, 90, 0.8);
+}
